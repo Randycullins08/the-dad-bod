@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-social/bootstrap-social.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>The Dad Bod</title>
+  </head>
+
+  <body>
+    <header class="jumbotron jumbotron-fluid">
+      <img src="/img/the-dad-bod-logo.png" height="100" width="200" class="mx-auto d-block img-fluid" />
+    </header>
+
+    <nav class="navbar navbar-dark navbar-expand-md bg-primary sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#dadBodNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="dadBodNavbar">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item m-auto">
+              <a class="nav-link" href="index.html"
+                ><i class="fa fa-home fa-lg"></i> Home</a
+              >
+            </li>
+            <li class="nav-item m-auto active">
+              <a class="nav-link" href="outside-activities.html"
+                ><i class="fa fa-bicycle fa-lg"></i> Outside Activities</a
+              >
+            </li>
+            <li class="nav-item m-auto">
+              <a class="nav-link" href="inside-activities.html"
+                ><i class="fa fa-child fa-lg"></i> Inside Activities</a
+              >
+            </li>
+            <li class="nav-item m-auto">
+              <a class="nav-link" href="about-me.html"
+                ><i class="fa fa-info fa-lg"></i> About Me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-sm-6 text-left">
+                <h2>Outside Activities</h2>
+                <p>We present a curated database of the best campsites in the vast
+                    woods and backcountry of the World Wide Web Wilderness. We increase
+                    access to adventure for the public while promoting safe and
+                    respectful use of resources. The expert wilderness trekkers on our
+                    staff personally verify each campsite to make sure that they are up
+                    to our standards. We also present a platform for campers to share
+                    reviews on campsites they have visited with each other.</p>
+            </div>
+            <div class="col">
+                <img class="img-thumbnail img-fluid float-sm-right" src="/img/Father-and-son-playing-soccer.jpg" alt="Father and son playing soccer.">
+            </div>
+        </div>
+
+        <div class="accordion" id="outsideActivities">
+            <div class="card">
+              <div class="card-header" id="summerActivities">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Summer Activities
+                  </button>
+                </h2>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="summerActivities" data-parent="#outsideActivities">
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://ridewithgps.com/find" target="_blank">Bike Riding</a></li>
+                        <li class="list-group-item"><a href="https://www.alltrails.com/" target="_blank">Hiking</a></li>
+                        <li class="list-group-item"><a href="https://www.sportsengine.com/" target="_blank">Sports: </a> Baseball, Football, Soccer etc.</li>
+                        <li class="list-group-item"><a href="https://playtivities.com/obstacle-courses-for-kids/" target="_blank">Obstacle Courses</a></li>
+                        <li class="list-group-item"><a href="https://findyourpark.com/park-finder" target="_blank">Playing in a Park</a></li>
+                      </ul>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="winterActivities">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Winter Activities
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="winterActivities" data-parent="#outsideActivities">
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><a href="https://www.tripstodiscover.com/best-places-to-go-sledding-in-the-u-s/" target="_blank">Go Sledding</a></li>
+                        <li class="list-group-item"><a href="https://www.thespruce.com/how-to-build-a-snowman-a-better-easier-way-4026624" target="_blank">Make a Snowman</a></li>
+                        <li class="list-group-item"><a href="https://www.sportsengine.com/" target="_blank">Sports: </a> Hockey, Snowboarding/Skiing, Ice Skating etc.</li>
+                        <li class="list-group-item"><a href="https://www.onthewater.com/5-steps-to-find-ice-fish" target="_blank">Ice Fishing</a></li>
+                        <li class="list-group-item"><a href="https://www.alltrails.com/lists/winter-hikes--8" target="_blank">Winter Hiking</a></li>
+                      </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer text-white">
+      <div class="container">
+        <div class="row text-light text-center py-4 justify-content-center">
+          <div class="col-sm-10 col-md-8 col-lg-6">
+            <img src="/img/the-dad-bod-logo.png" height="150" width="150" alt="The Dad Bod">
+            <p>This is a longer card with supporting text below as a natural lead-in to 
+              additional content. This content is a little bit longer.</p>
+            <ul class="social pt-3">
+              <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+              <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+              <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-square"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
