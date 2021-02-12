@@ -50,7 +50,7 @@ body {
   .jumbotron {
     margin: 0;
     padding: 30px;
-    background-color: #fffff0;
+    background-color: #fffff7;
   }
   
   .row-content {
@@ -72,11 +72,12 @@ body {
   }
 
   .card-deck {
-    padding: 20px;
+    padding: 40px;
   }
   
   .card {
     border: solid 2px #3046c5;
+    background-color: #fffff7;
   }
 
   .accordion {
