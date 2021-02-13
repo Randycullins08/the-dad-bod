@@ -1,6 +1,6 @@
 body {
     font-family: 'Fira Sans Condensed', sans-serif;
-    background-color: #fffff0;
+    background-color: #fffdd0;
   }
   
   h1,
@@ -12,6 +12,7 @@ body {
   h2 {
     color: #3046c5;
     padding-bottom: 20px;
+    font-weight: bold;
   }
   
   header h2 {
@@ -50,7 +51,19 @@ body {
   .jumbotron {
     margin: 0;
     padding: 30px;
-    background-color: #fffff7;
+    background-image: url(/img/Father-Son-Relationship.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #backgroundImage {
+    background-image: url(/img/Father-Son-Relationship.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .row-content {
@@ -60,7 +73,7 @@ body {
   }
   
   .navbar-dark {
-    background-color: #901cad;
+    background-color: #000080;
   }
   
   .carousel-caption {
@@ -76,10 +89,23 @@ body {
   }
   
   .card {
-    border: solid 2px #3046c5;
-    background-color: #fffff7;
+    border: solid 2px #000080;
+    background-color: #fffdd0;
+  }
+
+  .card-header {
+    background-color: #000080;
+  }
+
+  .list-group-item {
+    background-color: #fffdd0;
+  }
+
+  .btn {
+    background-color: #000080;
   }
 
   .accordion {
     padding-bottom: 20px;
   }
+  
